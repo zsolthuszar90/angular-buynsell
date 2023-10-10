@@ -8,7 +8,7 @@ import { MyListingsComponent } from './my-listings/my-listings.component';
 import { NewListingPageComponent } from './new-listing-page/new-listing-page.component';
 
 const routes: Routes = [
-  {path: 'listing', component: ListingsPageComponent, pathMatch: 'full'},
+  {path: 'listings', component: ListingsPageComponent, pathMatch: 'full'},
   {path: 'listings/:id', component: ListingDetailPageComponent},
   {path: 'contact/:id', component: ContactPageComponent},
   {path: 'edit-listing/:id', component: EditListingPageComponent},
